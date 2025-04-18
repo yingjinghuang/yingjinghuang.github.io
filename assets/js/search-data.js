@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -30,7 +30,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{
+        },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather.html";
+            },},{id: "news-i-am-starting-my-visit-at-the-mit-senseable-city-lab-as-a-visiting-ph-d-student",
+          title: 'I am starting my visit at the MIT Senseable City Lab as a...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-comprehensive-urban-space-representation-with-varying-numbers-of-street-level-images-is-accepted-to-computers-environment-and-urban-systems",
+          title: 'Our paper on “Comprehensive urban space representation with varying numbers of street-level images”...',
+          description: "",
+          section: "News",},{id: "news-presentation-on-2024-aag-annual-meeting",
+          title: 'Presentation on 2024 AAG Annual Meeting',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_3.html";
+            },},{id: "news-our-paper-on-no-true-greenery-deciphering-the-bias-of-satellite-and-street-view-imagery-in-urban-greenery-measurement-is-accepted-to-building-and-environment",
+          title: 'Our paper on “No “true” greenery: Deciphering the bias of satellite and street...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-intelligent-computational-representation-of-urban-imagery-in-chinese-is-accepted-to-geomatics-and-information-science-of-wuhan-university",
+          title: 'Our paper on “Intelligent Computational Representation of Urban Imagery” （in Chinese）is accepted to...',
+          description: "",
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
