@@ -11,17 +11,10 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "publications by categories in reversed chronological order. A full list can be found in  Google Scholar .",
+          description: "publications by categories in reversed chronological order. A full list can be found in Google Scholar.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
-          },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
@@ -37,88 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather.html";
-            },},{id: "news-i-am-starting-my-visit-at-the-mit-senseable-city-lab-as-a-visiting-ph-d-student",
-          title: 'I am starting my visit at the MIT Senseable City Lab as a...',
-          description: "",
-          section: "News",},{id: "news-our-paper-on-comprehensive-urban-space-representation-with-varying-numbers-of-street-level-images-is-accepted-to-computers-environment-and-urban-systems",
-          title: 'Our paper on “Comprehensive urban space representation with varying numbers of street-level images”...',
-          description: "",
-          section: "News",},{id: "news-presentation-on-2024-aag-annual-meeting",
-          title: 'Presentation on 2024 AAG Annual Meeting',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_3.html";
-            },},{id: "news-our-paper-on-no-true-greenery-deciphering-the-bias-of-satellite-and-street-view-imagery-in-urban-greenery-measurement-is-accepted-to-building-and-environment",
-          title: 'Our paper on “No “true” greenery: Deciphering the bias of satellite and street...',
-          description: "",
-          section: "News",},{id: "news-our-paper-on-intelligent-computational-representation-of-urban-imagery-in-chinese-is-accepted-to-geomatics-and-information-science-of-wuhan-university",
-          title: 'Our paper on “Intelligent Computational Representation of Urban Imagery” （in Chinese）is accepted to...',
-          description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project.html";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project.html";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project.html";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project.html";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project.html";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project.html";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project.html";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project.html";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project.html";
-            },},{
+        },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
