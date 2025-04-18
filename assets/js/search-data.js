@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "",
+          description: "A complete PDF version of my CV is available by clicking the icon on the right.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -440,16 +440,22 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-am-starting-my-visit-at-the-mit-senseable-city-lab-as-a-visiting-ph-d-student",
+          title: 'I am starting my visit at the MIT Senseable City Lab as a...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-paper-on-comprehensive-urban-space-representation-with-varying-numbers-of-street-level-images-is-accepted-to-computers-environment-and-urban-systems",
+          title: 'Our paper on “Comprehensive urban space representation with varying numbers of street-level images”...',
+          description: "",
+          section: "News",},{id: "news-presentation-on-2024-aag-annual-meeting",
+          title: 'Presentation on 2024 AAG Annual Meeting',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/announcement_3/";
+            },},{id: "news-our-paper-on-no-true-greenery-deciphering-the-bias-of-satellite-and-street-view-imagery-in-urban-greenery-measurement-is-accepted-to-building-and-environment",
+          title: 'Our paper on “No “true” greenery: Deciphering the bias of satellite and street...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-intelligent-computational-representation-of-urban-imagery-in-chinese-is-accepted-to-geomatics-and-information-science-of-wuhan-university",
+          title: 'Our paper on “Intelligent Computational Representation of Urban Imagery” （in Chinese）is accepted to...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
