@@ -46,6 +46,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3.html";
+            },},{id: "news-i-successfully-defended-my-phd-thesis",
+          title: 'I successfully defended my PhD thesis!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_6.html";
             },},{id: "news-our-paper-on-no-true-greenery-deciphering-the-bias-of-satellite-and-street-view-imagery-in-urban-greenery-measurement-is-accepted-to-building-and-environment",
           title: 'Our paper on “No “true” greenery: Deciphering the bias of satellite and street...',
           description: "",
