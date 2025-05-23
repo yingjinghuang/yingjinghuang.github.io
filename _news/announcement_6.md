@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I successfully defended my PhD thesis!
-date: 2024-05-20 07:59:00+0800
+date: 2025-05-20 07:59:00+0800
 inline: false
 related_posts: false
 ---
