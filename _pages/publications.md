@@ -8,7 +8,7 @@ nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
-publications by categories in reversed chronological order. A full list can be found in [Google Scholar](https://scholar.google.com/citations?user=csRWjXUAAAAJ).
+Publications in reversed chronological order. A full list can be found in [Google Scholar](https://scholar.google.com/citations?user=csRWjXUAAAAJ).
 
 <!-- Bibsearch Feature -->
 
