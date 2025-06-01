@@ -86,7 +86,6 @@
         {% endif %}
         {%- if author_is_self -%}
           <strong style="text-decoration: underline;">
-
             {{- author.first }}
             {{ author_last_html -}}
           </strong>
@@ -185,6 +184,12 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
+
+    {% if entry.langid == "cn" %}
+    <div class="language-label" style="font-style: italic; font-size: 0.9em; color: #666;">
+      (in Chinese)
+    </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
