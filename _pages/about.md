@@ -6,12 +6,10 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Remote sening building, Peking University</p>
-    <p>No.5 Yiheyuan Road</p>
-    <p>Beijing, China 100871</p>
+    <p>Ph.D. candidate, Peking University</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -30,4 +28,6 @@ My research intersects GIScience and Computer Vision, with a focus on urban visu
 
 Currently, I am working on my doctoral thesis, which focuses on using GeoAI to represent the urban physical environment based on urban imagery, primarily involving remote sensing imagery and street-level imagery. We want to understand how humans transform urban physical spaces and how these spaces, in turn, reflect human daily life.
 
+<p style="color: red;">
 With my doctoral degree expected in June 2025, I am currently seeking faculty or postdoctoral positions.
+</p>
