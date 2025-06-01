@@ -62,7 +62,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%69%6E%67%6A%69%6E%67%68%75%61%6E%67@%73%74%75.%70%6B%75.%65%64%75.%63%6F%6D", "_blank");
+          window.open("mailto:%68%75%61%6E%67%79%69%6E%67%6A%69%6E%67@%73%74%75.%70%6B%75.%65%64%75.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
@@ -70,6 +70,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/yingjinghuang", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/yingjinghuang", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -83,7 +90,7 @@ ninja.data = [{
         title: 'ResearchGate',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.researchgate.net/profile/https://www.researchgate.net/profile/Yingjing-Huang/", "_blank");
+          window.open("https://www.researchgate.net/profile/Yingjing-Huang/", "_blank");
         },
       },{
         id: 'social-scholar',
