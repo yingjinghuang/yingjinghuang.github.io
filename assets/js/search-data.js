@@ -57,7 +57,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_6.html";
-            },},{
+            },},{id: "news-our-paper-on-measuring-urban-physical-environments-using-lmage-deep-features-a-case-study-is-accepted-to-cities",
+          title: 'Our paper on “Measuring Urban Physical Environments Using lmage Deep Features: A Case...',
+          description: "",
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
