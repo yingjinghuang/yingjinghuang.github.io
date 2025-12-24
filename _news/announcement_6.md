@@ -8,7 +8,7 @@ related_posts: false
 
 I am thrilled to share that I have successfully defended my PhD thesis! It has been an incredible journey of research, learning, and growth. I'm immensely grateful to my advisors, committee members, colleagues, friends, and family for their unwavering support throughout this process.
 
-I'm excited for what the future holds and looking forward to the next chapter!
+I'm excited for what the future holds and looking forward to the next chapter! 😁😁
 
 ---
 
