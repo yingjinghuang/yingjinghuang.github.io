@@ -64,7 +64,7 @@ ninja.data = [{
           title: 'Our paper on “Representation learning for geospatial data” is accepted to Annals of...',
           description: "",
           section: "News",},{id: "news-i-am-honored-to-receive-the-daad-ai-net-postdoc-fellowship",
-          title: 'I am honored to receive the DAAD AI-Net Postdoc Fellowship 🎉🎉',
+          title: 'I am honored to receive the DAAD AI-Net Postdoc Fellowship 😁😁',
           description: "",
           section: "News",},{id: "news-our-paper-on-learning-street-view-representations-based-on-a-spatiotemporal-contrastive-learning-framework-is-accepted-to-computers-environment-and-urban-systems",
           title: 'Our paper on “Learning street view representations based on a spatiotemporal contrastive learning...',
