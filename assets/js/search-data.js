@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-education",
+          title: "education",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/education/";
+          },
         },{id: "nav-experiences",
           title: "experiences",
           description: "",
@@ -97,11 +104,11 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-on-learning-street-view-representations-based-on-a-spatiotemporal-contrastive-learning-framework-is-accepted-to-computers-environment-and-urban-systems",
           title: '📄 Our paper on “Learning street view representations based on a spatiotemporal contrastive...',
           description: "",
-          section: "News",},{id: "news-️-i-started-my-position-as-a-university-assistant-postdoc-at-the-university-of-vienna",
-          title: '🏛️ I started my position as a University Assistant Postdoc at the University...',
+          section: "News",},{id: "news-i-started-my-position-as-a-university-assistant-postdoc-at-the-university-of-vienna",
+          title: '🇦🇹 I started my position as a University Assistant Postdoc at the University...',
           description: "",
           section: "News",},{id: "news-call-for-papers-geography-according-to-foundation-models-agile-2026",
-          title: '📢 Call for Papers: Geography According to Foundation Models @ AGILE 2026',
+          title: 'Call for Papers: Geography According to Foundation Models @ AGILE 2026',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_12.html";
