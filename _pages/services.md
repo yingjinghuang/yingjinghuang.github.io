@@ -28,4 +28,4 @@ nav_order: 5
 - [IEEE Transactions on Human-Machine Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=3468)
 - [Journal of Urban Technology](https://www.tandfonline.com/journals/cjut20)
 - [Computational Urban Science](https://link.springer.com/journal/43762)
-- Journal of Transportation Engineering and Information (in Chinese)
+- [Journal of Transportation Engineering and Information](http://jtysgx.ndhx.net/) (in Chinese)
