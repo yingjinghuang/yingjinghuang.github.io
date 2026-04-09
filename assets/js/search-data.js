@@ -101,7 +101,7 @@ ninja.data = [{
           title: '🏛️ I started my position as a University Assistant Postdoc at the University...',
           description: "",
           section: "News",},{id: "news-call-for-papers-geography-according-to-foundation-models-agile-2026",
-          title: 'Call for Papers: Geography According to Foundation Models @ AGILE 2026',
+          title: '📢 Call for Papers: Geography According to Foundation Models @ AGILE 2026',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_12.html";
