@@ -62,6 +62,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-on-learning-street-view-representations-based-on-a-spatiotemporal-contrastive-learning-framework-is-accepted-to-computers-environment-and-urban-systems",
           title: 'Our paper on “Learning street view representations based on a spatiotemporal contrastive learning...',
           description: "",
+          section: "News",},{id: "news-i-started-my-position-as-a-university-assistant-postdoc-at-the-university-of-vienna",
+          title: 'I started my position as a University Assistant Postdoc at the University of...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
