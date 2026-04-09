@@ -3,10 +3,10 @@
   contents:
     - title: Conceptual Modelling and Programming
       institution: University of Vienna
+      location: Vienna, Austria
       year: 2026
       description:
-        - "Role: Lecturer"
-        - "Semester: Summer 2026"
+        - "Lecturer, Summer 2026"
       linkitems:
         - link: https://yingjinghuang.github.io/290701-Conceptual-Modelling-and-Programming/
           linkname: Course Page
@@ -15,7 +15,7 @@
 
     - title: Spatial Analysis and GIS Applications
       institution: Peking University
+      location: Beijing, China
       year: 2025
       description:
-        - "Role: Teaching Assistant"
-        - "Semester: Spring 2025"
+        - "Teaching Assistant, Spring 2025"

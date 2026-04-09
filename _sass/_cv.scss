@@ -15,6 +15,12 @@ table.table-cv {
   }
 }
 
+// Override Bootstrap danger-color-dark badge to use theme color
+.list-group-item .badge.danger-color-dark {
+  background-color: var(--global-theme-color) !important;
+  color: white !important;
+}
+
 a.btncv {
   color: var(--global-text-color) !important;
   border: 1px solid var(--global-text-color) !important;

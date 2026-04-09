@@ -1,0 +1,32 @@
+- title: Workshop Organization
+  type: time_table
+  contents:
+    - title: 1st International Workshop on Geography According to Foundation Models
+      institution: AGILE 2026
+      location: Tartu, Estonia
+      year: 2026
+      description:
+        - "Co-organizer, June 16, 2026"
+      linkitems:
+        - link: https://stko-lab.github.io/agile2026-geofm/
+          linkname: Workshop Website
+
+- title: Journal Reviewer
+  type: list
+  contents:
+    - ISPRS Journal of Photogrammetry and Remote Sensing
+    - Landscape and Urban Planning
+    - Cities
+    - Computers, Environment and Urban Systems
+    - Building and Environment
+    - Geography and Sustainability
+    - Urban Forestry & Urban Greening
+    - International Journal of Geographical Information Science
+    - Environment and Planning B: Urban Analytics and City Science
+    - Travel Behaviour and Society
+    - Applied Geography
+    - Scientific Reports
+    - IEEE Transactions on Human-Machine Systems
+    - Journal of Urban Technology
+    - Computational Urban Science
+    - Journal of Transportation Engineering and Information (in Chinese)
