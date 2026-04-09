@@ -16,12 +16,33 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Courses I have taught or assisted with.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "nav-talks",
+          title: "talks",
+          description: "Invited talks, conference presentations, and seminars.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "A complete PDF version of my CV is available by clicking the icon on the right.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-services",
+          title: "services",
+          description: "Academic services including journal reviews, conference organization, and committee memberships.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/services/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
