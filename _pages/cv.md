@@ -3,7 +3,7 @@ layout: page
 permalink: /cv/
 title: cv
 nav: true
-nav_order: 8
+nav_order: 7
 ---
 
 <div class="text-center mt-5 mb-5">
