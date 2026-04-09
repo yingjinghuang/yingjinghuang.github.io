@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🇦🇹 I started my position as a University Assistant Postdoc at the [University of Vienna](https://www.univie.ac.at/)! 🎉🎉
+🏛️ I started my position as a University Assistant Postdoc at the [University of Vienna](https://www.univie.ac.at/)! 🎉🎉
