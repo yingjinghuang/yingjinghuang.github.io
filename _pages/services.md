@@ -7,18 +7,25 @@ nav: true
 nav_order: 6
 ---
 
-<!-- Add your services below. Example format: -->
+## Workshop Organization
 
-<!-- ## Journal Reviewer -->
+- **Co-organizer**, [1st International Workshop on Geography According to Foundation Models](https://stko-lab.github.io/agile2026-geofm/), AGILE 2026, Tartu, Estonia, June 16, 2026
 
-<!-- - *Journal Name 1* -->
-<!-- - *Journal Name 2* -->
+## Journal Reviewer
 
-<!-- ## Conference Reviewer -->
-
-<!-- - Conference Name 1 -->
-<!-- - Conference Name 2 -->
-
-<!-- ## Professional Memberships -->
-
-<!-- - Organization Name -->
+- ISPRS Journal of Photogrammetry and Remote Sensing
+- Landscape and Urban Planning
+- Cities
+- Computers, Environment and Urban Systems
+- Building and Environment
+- Geography and Sustainability
+- Urban Forestry & Urban Greening
+- International Journal of Geographical Information Science
+- Environment and Planning B: Urban Analytics and City Science
+- Travel Behaviour and Society
+- Applied Geography
+- Scientific Reports
+- IEEE Transactions on Human-Machine Systems
+- Journal of Urban Technology
+- Computational Urban Science
+- Journal of Transportation Engineering and Information (in Chinese)
