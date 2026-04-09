@@ -86,10 +86,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-started-my-position-as-a-university-assistant-postdoc-at-the-university-of-vienna",
           title: 'I started my position as a University Assistant Postdoc at the University of...',
           description: "",
-          section: "News",},{id: "news-call-for-papers-we-are-thrilled-to-share-the-call-for-papers-for-the-geography-according-to-foundation-models-workshop-at-agile-2026-we-welcome-short-papers-4-6-pages-on-late-breaking-results-conceptual-papers-and-experiments-describing-how-ai-represents-and-potentially-shapes-geography-submission-deadline-april-29-2026-workshop-date-june-16-2026-tartu-estonia",
-          title: '📢 Call for Papers! We are thrilled to share the Call for Papers...',
+          section: "News",},{id: "news-call-for-papers-geography-according-to-foundation-models-agile-2026",
+          title: 'Call for Papers: Geography According to Foundation Models @ AGILE 2026',
           description: "",
-          section: "News",},{
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_12.html";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
