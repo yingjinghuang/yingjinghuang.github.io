@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/education/";
           },
+        },{id: "nav-experiences",
+          title: "experiences",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/experiences/";
+          },
         },{id: "nav-teaching",
           title: "teaching",
           description: "Courses I have taught or assisted with.",
