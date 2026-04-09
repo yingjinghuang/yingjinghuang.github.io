@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am honored to receive the DAAD AI-Net Postdoc Fellowship 😁😁
+🏆 I am honored to receive the DAAD AI-Net Postdoc Fellowship! 😁😁

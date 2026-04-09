@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will present a poster on "No 'true' greenery: Deciphering the bias of satellite and street view imagery in urban greenery measurement" at [EGU General Assembly 2026](https://www.egu26.eu) in Vienna, Austria (May 4, 2026). See you at Hall X5, board X5.176! 🗺️
+🗺️ I will present a poster at [EGU General Assembly 2026](https://www.egu26.eu) in Vienna, Austria (May 4, 2026). See you at Hall X5, board X5.176! 👋

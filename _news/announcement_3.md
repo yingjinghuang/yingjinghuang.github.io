@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-I present our paper <a href="https://www.sciencedirect.com/science/article/pii/S0198971523001060">"Comprehensive urban space representation with varying numbers of street-level images"</a> on <a href="https://www.aag.org/events/aag2024/">2024 AAG Annual Meeting</a>, Hawaii, US.
+🎤 I present our paper <a href="https://www.sciencedirect.com/science/article/pii/S0198971523001060">"Comprehensive urban space representation with varying numbers of street-level images"</a> on <a href="https://www.aag.org/events/aag2024/">2024 AAG Annual Meeting</a>, Hawaii, US.
 
 ---
 

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on ["Representation learning for geospatial data"](https://www.tandfonline.com/doi/full/10.1080/19475683.2025.2552157) is accepted to *Annals of GIS* 🎉🎉
+📄 Our paper on ["Representation learning for geospatial data"](https://www.tandfonline.com/doi/full/10.1080/19475683.2025.2552157) is accepted to *Annals of GIS* 🎉🎉

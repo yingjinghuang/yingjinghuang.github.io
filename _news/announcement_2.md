@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am starting my visit at the MIT Senseable City Lab as a visiting Ph.D. student.
+✈️ I am starting my visit at the MIT Senseable City Lab as a visiting Ph.D. student! 🎓

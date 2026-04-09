@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on ["No “true” greenery: Deciphering the bias of satellite and street view imagery in urban greenery measurement"](https://www.sciencedirect.com/science/article/pii/S036013232401237X) is accepted to *Building and Environment* 🎉🎉
+📄 Our paper on [“No “true” greenery: Deciphering the bias of satellite and street view imagery in urban greenery measurement”](https://www.sciencedirect.com/science/article/pii/S036013232401237X) is accepted to *Building and Environment* 🎉🎉

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on ["Measuring Urban Physical Environments Using lmage Deep Features: A Case Study"](https://www.sciencedirect.com/science/article/pii/S0264275125004974) is accepted to *Cities* 🎉🎉
+📄 Our paper on ["Measuring Urban Physical Environments Using Image Deep Features: A Case Study"](https://www.sciencedirect.com/science/article/pii/S0264275125004974) is accepted to *Cities* 🎉🎉
