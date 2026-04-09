@@ -112,7 +112,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_12.html";
-            },},{
+            },},{id: "news-i-will-present-a-poster-on-no-true-greenery-deciphering-the-bias-of-satellite-and-street-view-imagery-in-urban-greenery-measurement-at-egu-general-assembly-2026-in-vienna-austria-may-4-2026-see-you-at-hall-x5-board-x5-176-️",
+          title: 'I will present a poster on “No ‘true’ greenery: Deciphering the bias of...',
+          description: "",
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
