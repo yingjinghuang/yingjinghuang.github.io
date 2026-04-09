@@ -4,7 +4,7 @@ permalink: /talks/
 title: talks
 description: Invited talks, conference presentations, and seminars.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 {% for entry in site.data.talks %}
