@@ -3,7 +3,7 @@ layout: post
 date: 2026-4-8 07:59:00+0200
 inline: false
 related_posts: false
-title: "Call for Papers: Geography According to Foundation Models @ AGILE 2026"
+title: "📢 Call for Papers: Geography According to Foundation Models @ AGILE 2026"
 ---
 
 We are thrilled to share the Call for Papers for the [Geography According to Foundation Models](https://stko-lab.github.io/agile2026-geofm/) workshop at AGILE 2026!
