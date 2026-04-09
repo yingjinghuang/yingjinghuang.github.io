@@ -1,0 +1,21 @@
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Conceptual Modelling and Programming
+      institution: University of Vienna
+      year: 2026
+      description:
+        - "Role: Lecturer"
+        - "Semester: Summer 2026"
+      linkitems:
+        - link: https://yingjinghuang.github.io/290701-Conceptual-Modelling-and-Programming/
+          linkname: Course Page
+        - link: https://ufind.univie.ac.at/en/course.html?lv=290701&semester=2026S
+          linkname: University Catalog
+
+    - title: Spatial Analysis and GIS Applications
+      institution: Peking University
+      year: 2025
+      description:
+        - "Role: Teaching Assistant"
+        - "Semester: Spring 2025"

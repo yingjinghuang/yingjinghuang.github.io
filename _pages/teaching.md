@@ -7,11 +7,14 @@ nav: true
 nav_order: 3
 ---
 
-## University of Vienna
-
-- **Conceptual Modelling and Programming** — Lecturer, Spring 2026
-  \[[course page](https://yingjinghuang.github.io/290701-Conceptual-Modelling-and-Programming/)\] \[[university catalog](https://ufind.univie.ac.at/en/course.html?lv=290701&semester=2026S)\]
-
-## Peking University
-
-- **Spatial Analysis and GIS Applications** — Teaching Assistant, Spring 2025
+{% for entry in site.data.teaching %}
+  <a id="{{ entry.title }}" style="scroll-margin-top: 74px"></a>
+  <div class="card mt-3 p-3">
+    <div class="row">
+      <div class="col">
+        <h3 class="font-weight-bold">{{ entry.title }}</h3>
+      </div>
+    </div>
+    {% include cv/{{ entry.type }}.liquid %}
+  </div>
+{% endfor %}

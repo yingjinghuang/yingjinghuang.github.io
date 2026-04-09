@@ -1,0 +1,46 @@
+- title: Invited Talks
+  type: time_table
+  contents:
+    - title: Analysis methods and applications of street view imagery
+      institution: Nanjing Normal University
+      location: Online
+      year: 2025
+      description:
+        - Aug. 2025
+      linkitems:
+        - link: https://www.bilibili.com/video/BV1WjtbzGENB?vd_source=22cad47cf5eb1010df24167bf3539023&p=2&spm_id_from=333.788.videopod.episodes
+          linkname: Video (in Chinese)
+
+    - title: Intelligent computational representation of urban imagery
+      institution: GISChat (a non-profit GIS knowledge-sharing platform organized by Chinese scholars)
+      location: Online
+      year: 2025
+      description:
+        - Aug. 2025
+      linkitems:
+        - link: https://www.bilibili.com/video/BV1qatJzgEyu
+          linkname: Video (in Chinese)
+
+- title: Conference Talks
+  type: time_table
+  contents:
+    - title: Measuring urban physical environments using image deep features
+      institution: The 26th Inter-University Symposium on Asian Megacities
+      location: Nanchang, China
+      year: 2025
+      description:
+        - Sep. 2025
+
+    - title: Comprehensive urban space representation with varying numbers of street-level images
+      institution: American Association of Geographers 2024 Annual Meeting
+      location: Honolulu, US
+      year: 2024
+      description:
+        - Apr. 2024
+
+    - title: "Quantifying the bias in place emotion extracted from photos on social networking sites: A case study on a university campus"
+      institution: 2021 International Graduate Workshop on GeoInformatics
+      location: Beijing, China (online)
+      year: 2021
+      description:
+        - Dec. 2021
