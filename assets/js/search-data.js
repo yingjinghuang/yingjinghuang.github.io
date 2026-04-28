@@ -108,7 +108,17 @@ ninja.data = [{
             },},{id: "news-️-i-will-present-a-poster-at-egu-general-assembly-2026-in-vienna-austria-may-4-2026-see-you-at-hall-x5-board-x5-176",
           title: '🗺️ I will present a poster at EGU General Assembly 2026 in Vienna,...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "news-deadline-extended-geography-according-to-foundation-models-agile-2026",
+          title: '⏰ Deadline Extended: Geography According to Foundation Models @ AGILE 2026',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_14.html";
+            },},{id: "news-call-for-papers-special-issue-on-geoai-for-urban-sustainability-tus",
+          title: '📢 Call for Papers: Special Issue on GeoAI for Urban Sustainability (TUS)',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_15.html";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
