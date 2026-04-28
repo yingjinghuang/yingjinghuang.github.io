@@ -103,4 +103,27 @@ nav_order: 5
   </li>
 </ol>
 
+<h2 class="bibliography">Conference Posters</h2>
+<ol class="bibliography">
+  <li>
+    <div class="row">
+      <div class="col-sm-2 abbr">
+        <abbr class="badge rounded w-100">May 2026</abbr>
+      </div>
+      <div class="col-sm-8">
+        <div class="title">No "true" greenery: Deciphering the bias of satellite and street view imagery in urban greenery measurement</div>
+        <div class="periodical">
+          <em>EGU General Assembly 2026</em>
+        </div>
+        <div class="periodical">
+          <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i> Vienna, Austria
+        </div>
+        <div class="links" style="margin-top: 0.5rem;">
+          <a href="/assets/pdf/2026-EGU-Poster-NoTrueGreenery.pdf" class="btn btn-sm z-depth-0" role="button">Poster (PDF)</a>
+        </div>
+      </div>
+    </div>
+  </li>
+</ol>
+
 </div>
