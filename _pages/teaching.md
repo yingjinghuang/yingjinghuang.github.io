@@ -14,6 +14,28 @@ nav_order: 4
   <li>
     <div class="row">
       <div class="col-sm-10">
+        <div class="title">Geo-Data and Geo-Data Management</div>
+        <div class="periodical">
+          <em>University of Vienna</em>, Winter 2026
+        </div>
+        <div class="author">Role: Lecturer</div>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="row">
+      <div class="col-sm-10">
+        <div class="title">Geographic Information Retrieval</div>
+        <div class="periodical">
+          <em>University of Vienna</em>, Winter 2026
+        </div>
+        <div class="author">Role: Lecturer</div>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="row">
+      <div class="col-sm-10">
         <div class="title">Conceptual Modelling and Programming</div>
         <div class="periodical">
           <em>University of Vienna</em>, Summer 2026

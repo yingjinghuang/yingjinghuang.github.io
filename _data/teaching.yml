@@ -1,6 +1,20 @@
 - title: Teaching
   type: time_table
   contents:
+    - title: Geo-Data and Geo-Data Management
+      institution: University of Vienna
+      location: Vienna, Austria
+      year: 2026
+      description:
+        - "Lecturer, Winter 2026"
+
+    - title: Geographic Information Retrieval
+      institution: University of Vienna
+      location: Vienna, Austria
+      year: 2026
+      description:
+        - "Lecturer, Winter 2026"
+
     - title: Conceptual Modelling and Programming
       institution: University of Vienna
       location: Vienna, Austria
