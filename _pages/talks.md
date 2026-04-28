@@ -119,7 +119,7 @@ nav_order: 5
           <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i> Vienna, Austria
         </div>
         <div class="links" style="margin-top: 0.5rem;">
-          <a href="/assets/pdf/2026-EGU-Poster-NoTrueGreenery.pdf" class="btn btn-sm z-depth-0" role="button">Poster (PDF)</a>
+          <a href="https://drive.google.com/file/d/1fzqZRq3n2f3r59wLpEbl9KUZyP6yKyW_/view?usp=drive_link" class="btn btn-sm z-depth-0" role="button">Poster (PDF)</a>
         </div>
       </div>
     </div>
