@@ -113,13 +113,15 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_15.html";
-            },},{id: "news-our-perspective-article-advancing-urban-sustainability-with-visual-intelligence-has-been-accepted-for-publication-in-science-bulletin",
-          title: '🎉 Our perspective article, Advancing urban sustainability with visual intelligence, has been accepted...',
+            },},{id: "news-our-perspective-article-on-advancing-urban-sustainability-with-visual-intelligence-is-accepted-to-science-bulletin",
+          title: '📄 Our perspective article on “Advancing urban sustainability with visual intelligence” is accepted...',
           description: "",
-          section: "News",},{id: "news-two-of-our-papers-have-been-accepted-to-acm-sigspatial-2026-investigating-the-multi-scale-reproducibility-of-geoai-models-for-urban-perception-was-accepted-as-a-full-paper-in-the-experiment-track-and-characterizing-multidimensional-landscape-discontinuities-at-phantom-borders-with-satellite-foundation-model-embeddings-was-accepted-as-a-poster-paper",
-          title: '🎉 Two of our papers have been accepted to ACM SIGSPATIAL 2026! Investigating...',
+          section: "News",},{id: "news-two-papers-accepted-to-acm-sigspatial-2026",
+          title: '🎉 Two papers accepted to ACM SIGSPATIAL 2026',
           description: "",
-          section: "News",},{
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_16.html";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
