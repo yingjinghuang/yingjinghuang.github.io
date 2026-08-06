@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Our perspective article, [*Advancing urban sustainability with visual intelligence*](https://doi.org/10.1016/j.scib.2026.07.078), has been accepted for publication in *Science Bulletin*!
+📄 Our perspective article on ["Advancing urban sustainability with visual intelligence"](https://doi.org/10.1016/j.scib.2026.07.078) is accepted to *Science Bulletin* 🎉🎉
