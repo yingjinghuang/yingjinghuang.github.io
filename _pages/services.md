@@ -31,6 +31,7 @@ nav_order: 6
 - [Applied Geography](https://www.sciencedirect.com/journal/applied-geography)
 - [Geography and Sustainability](https://www.sciencedirect.com/journal/geography-and-sustainability)
 - [Scientific Reports](https://www.nature.com/srep/)
+- [PLOS ONE](https://journals.plos.org/plosone/)
 - [Journal of Urban Technology](https://www.tandfonline.com/journals/cjut20)
 - [Computational Urban Science](https://link.springer.com/journal/43762)
 - [International Journal of Applied Earth Observation and Geoinformation](https://www.sciencedirect.com/journal/international-journal-of-applied-earth-observation-and-geoinformation)
