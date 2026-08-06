@@ -113,7 +113,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_15.html";
-            },},{
+            },},{id: "news-two-of-our-papers-have-been-accepted-to-acm-sigspatial-2026-investigating-the-multi-scale-reproducibility-of-geoai-models-for-urban-perception-was-accepted-as-a-full-paper-in-the-experiment-track-and-characterizing-multidimensional-landscape-discontinuities-at-phantom-borders-with-satellite-foundation-model-embeddings-was-accepted-as-a-poster-paper",
+          title: '🎉 Two of our papers have been accepted to ACM SIGSPATIAL 2026! Investigating...',
+          description: "",
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
