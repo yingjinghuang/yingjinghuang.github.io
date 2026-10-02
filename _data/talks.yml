@@ -1,6 +1,20 @@
 - title: Invited Talks
   type: time_table
   contents:
+    - title: Understanding Cities with Urban Visual Intelligence
+      institution: Technical University of Munich (TUM)
+      location: Munich, Germany
+      year: 2026
+      description:
+        - Sep. 2026
+
+    - title: Understanding Cities with Urban Visual Intelligence
+      institution: Heidelberg University
+      location: Heidelberg, Germany
+      year: 2026
+      description:
+        - Sep. 2026
+
     - title: Analysis methods and applications of street view imagery
       institution: Nanjing Normal University
       location: Online
@@ -24,6 +38,13 @@
 - title: Conference Talks
   type: time_table
   contents:
+    - title: Learning street view representations based on a spatiotemporal contrastive learning framework
+      institution: 17th International Conference on Spatial Information Theory (COSIT 2026)
+      location: York, UK
+      year: 2026
+      description:
+        - Sep. 2026
+
     - title: Measuring urban physical environments using image deep features
       institution: The 26th Inter-University Symposium on Asian Megacities
       location: Nanchang, China
