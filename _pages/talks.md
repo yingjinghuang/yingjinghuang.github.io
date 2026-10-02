@@ -14,6 +14,38 @@ nav_order: 5
   <li>
     <div class="row">
       <div class="col-sm-2 abbr">
+        <abbr class="badge rounded w-100">Sep. 2026</abbr>
+      </div>
+      <div class="col-sm-8">
+        <div class="title">Understanding Cities with Urban Visual Intelligence</div>
+        <div class="periodical">
+          <em>Technical University of Munich (TUM)</em>
+        </div>
+        <div class="periodical">
+          <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i> Munich, Germany
+        </div>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="row">
+      <div class="col-sm-2 abbr">
+        <abbr class="badge rounded w-100">Sep. 2026</abbr>
+      </div>
+      <div class="col-sm-8">
+        <div class="title">Understanding Cities with Urban Visual Intelligence</div>
+        <div class="periodical">
+          <em>Heidelberg University</em>
+        </div>
+        <div class="periodical">
+          <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i> Heidelberg, Germany
+        </div>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="row">
+      <div class="col-sm-2 abbr">
         <abbr class="badge rounded w-100">Aug. 2025</abbr>
       </div>
       <div class="col-sm-8">
@@ -53,6 +85,22 @@ nav_order: 5
 
 <h2 class="bibliography">Conference Talks</h2>
 <ol class="bibliography">
+  <li>
+    <div class="row">
+      <div class="col-sm-2 abbr">
+        <abbr class="badge rounded w-100">Sep. 2026</abbr>
+      </div>
+      <div class="col-sm-8">
+        <div class="title">Learning street view representations based on a spatiotemporal contrastive learning framework</div>
+        <div class="periodical">
+          <em>17th International Conference on Spatial Information Theory (COSIT 2026)</em>
+        </div>
+        <div class="periodical">
+          <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i> York, UK
+        </div>
+      </div>
+    </div>
+  </li>
   <li>
     <div class="row">
       <div class="col-sm-2 abbr">
