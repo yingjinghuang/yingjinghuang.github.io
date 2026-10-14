@@ -69,6 +69,16 @@ _styles: |
     color: var(--global-text-color-light);
     white-space: nowrap;
   }
+  .teaching-term-current {
+    display: inline-block;
+    padding: .13rem .5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    color: var(--global-theme-color);
+    background: var(--global-card-bg-color);
+    font-size: .8rem;
+    font-weight: 600;
+  }
   .teaching-role {
     margin: .2rem 0 0;
     font-size: .88rem;
@@ -122,7 +132,7 @@ _styles: |
           <article class="teaching-course">
             <div class="teaching-course-header">
               <h4 class="teaching-course-name">Geo-Data and Geo-Data Management</h4>
-              <span class="teaching-term">Winter 2026</span>
+              <span class="teaching-term teaching-term-current">Winter 2026</span>
             </div>
             <p class="teaching-role">Lecturer</p>
             <nav class="teaching-links" aria-label="Geo-Data and Geo-Data Management course links">
@@ -134,7 +144,7 @@ _styles: |
           <article class="teaching-course">
             <div class="teaching-course-header">
               <h4 class="teaching-course-name">Geographic Information Retrieval</h4>
-              <span class="teaching-term">Winter 2026</span>
+              <span class="teaching-term teaching-term-current">Winter 2026</span>
             </div>
             <p class="teaching-role"><strong>Lead lecturer</strong> · with <a href="https://ufind.univie.ac.at/en/person.html?id=1004103">Zilong Liu</a> · Two groups</p>
             <nav class="teaching-links" aria-label="Geographic Information Retrieval course links">
