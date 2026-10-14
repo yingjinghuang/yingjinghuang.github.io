@@ -2,18 +2,25 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Courses and student supervision.
+description: University teaching and master's thesis supervision.
 nav: true
 nav_order: 4
 _styles: |
   .teaching-page { max-width: 860px; }
-  .teaching-year-group + .teaching-year-group { margin-top: 2.5rem; }
-  .teaching-year-title {
-    margin: 0 0 .65rem;
+  .teaching-year-group + .teaching-year-group { margin-top: 2.15rem; }
+  .teaching-section-heading {
+    margin: 0 0 1.2rem;
     font-size: 1.45rem;
     font-weight: 650;
     line-height: 1.35;
     letter-spacing: -.02em;
+  }
+  .teaching-year-title {
+    margin: 0 0 .45rem;
+    font-size: 1.02rem;
+    font-weight: 650;
+    line-height: 1.4;
+    color: var(--global-text-color-light);
   }
   .teaching-institution {
     display: grid;
@@ -69,23 +76,12 @@ _styles: |
     color: var(--global-text-color-light);
     white-space: nowrap;
   }
-  .teaching-term-current {
-    display: inline-block;
-    padding: .13rem .5rem;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 6px;
-    color: var(--global-theme-color);
-    background: var(--global-card-bg-color);
-    font-size: .8rem;
-    font-weight: 600;
-  }
   .teaching-role {
     margin: .2rem 0 0;
     font-size: .88rem;
     line-height: 1.55;
     color: var(--global-text-color-light);
   }
-  .teaching-role strong { font-weight: 600; color: var(--global-text-color); }
   .teaching-role a { color: var(--global-theme-color); }
   .teaching-role a:hover { text-decoration: underline; }
   .teaching-links {
@@ -99,13 +95,6 @@ _styles: |
   .teaching-links a { color: var(--global-theme-color); }
   .teaching-links a:hover { text-decoration: underline; }
   .teaching-supervision-section { margin-top: 2.65rem; }
-  .teaching-supervision-heading {
-    margin: 0 0 .65rem;
-    font-size: 1.45rem;
-    font-weight: 650;
-    line-height: 1.35;
-    letter-spacing: -.02em;
-  }
   .teaching-supervision-entry {
     display: grid;
     grid-template-columns: 54px minmax(0, 1fr);
@@ -149,8 +138,9 @@ _styles: |
   .teaching-supervision-role a { color: var(--global-theme-color); }
   .teaching-supervision-role a:hover { text-decoration: underline; }
   @media (max-width: 600px) {
-    .teaching-year-group + .teaching-year-group { margin-top: 2rem; }
-    .teaching-year-title { font-size: 1.34rem; }
+    .teaching-year-group + .teaching-year-group { margin-top: 1.65rem; }
+    .teaching-section-heading { font-size: 1.34rem; }
+    .teaching-year-title { font-size: .99rem; }
     .teaching-institution {
       grid-template-columns: 44px minmax(0, 1fr);
       gap: .8rem;
@@ -165,7 +155,6 @@ _styles: |
     }
     .teaching-term { font-size: .81rem; white-space: normal; }
     .teaching-supervision-section { margin-top: 2.05rem; }
-    .teaching-supervision-heading { font-size: 1.34rem; }
     .teaching-supervision-entry {
       grid-template-columns: 44px minmax(0, 1fr);
       gap: .8rem;
@@ -178,20 +167,23 @@ _styles: |
 
 <div class="teaching-page">
 
+  <section class="teaching-courses-section" aria-labelledby="teaching-courses-title">
+    <h2 class="teaching-section-heading" id="teaching-courses-title">Courses</h2>
+
   <section class="teaching-year-group" aria-labelledby="teaching-2026">
-    <h2 class="teaching-year-title" id="teaching-2026">2026</h2>
+    <h3 class="teaching-year-title" id="teaching-2026">2026</h3>
     <div class="teaching-institution">
       <div class="teaching-logo">
         <img src="{{ '/assets/img/univie_logo.png' | relative_url }}" alt="" loading="lazy">
       </div>
       <div class="teaching-body">
-        <h3 class="teaching-institution-name">University of Vienna</h3>
+        <h4 class="teaching-institution-name">University of Vienna</h4>
         <div class="teaching-course-list">
 
           <article class="teaching-course">
             <div class="teaching-course-header">
-              <h4 class="teaching-course-name">Geo-Data and Geo-Data Management</h4>
-              <span class="teaching-term teaching-term-current">Winter 2026</span>
+              <h5 class="teaching-course-name">Geo-Data and Geo-Data Management</h5>
+              <span class="teaching-term">Winter 2026</span>
             </div>
             <p class="teaching-role">Lecturer</p>
             <nav class="teaching-links" aria-label="Geo-Data and Geo-Data Management course links">
@@ -202,10 +194,10 @@ _styles: |
 
           <article class="teaching-course">
             <div class="teaching-course-header">
-              <h4 class="teaching-course-name">Geographic Information Retrieval</h4>
-              <span class="teaching-term teaching-term-current">Winter 2026</span>
+              <h5 class="teaching-course-name">Geographic Information Retrieval</h5>
+              <span class="teaching-term">Winter 2026</span>
             </div>
-            <p class="teaching-role"><strong>Lead lecturer</strong> · with <a href="https://ufind.univie.ac.at/en/person.html?id=1004103">Zilong Liu</a> · Two groups</p>
+            <p class="teaching-role">Lead lecturer · with <a href="https://ufind.univie.ac.at/en/person.html?id=1004103">Zilong Liu</a> · Two groups</p>
             <nav class="teaching-links" aria-label="Geographic Information Retrieval course links">
               <a href="https://yingjinghuang.github.io/Geographic-Information-Retrieval/">Course Page ↗</a>
               <a href="https://ufind.univie.ac.at/en/course.html?lv=290753&amp;semester=2026W">u:find · Tuesday group ↗</a>
@@ -215,7 +207,7 @@ _styles: |
 
           <article class="teaching-course">
             <div class="teaching-course-header">
-              <h4 class="teaching-course-name">Conceptual Modelling and Programming</h4>
+              <h5 class="teaching-course-name">Conceptual Modelling and Programming</h5>
               <span class="teaching-term">Summer 2026</span>
             </div>
             <p class="teaching-role">Lecturer</p>
@@ -231,28 +223,30 @@ _styles: |
   </section>
 
   <section class="teaching-year-group" aria-labelledby="teaching-2025">
-    <h2 class="teaching-year-title" id="teaching-2025">2025</h2>
+    <h3 class="teaching-year-title" id="teaching-2025">2025</h3>
     <div class="teaching-institution">
       <div class="teaching-logo">
         <img src="{{ '/assets/img/pku_logo.png' | relative_url }}" alt="" loading="lazy">
       </div>
       <div class="teaching-body">
-        <h3 class="teaching-institution-name">Peking University</h3>
+        <h4 class="teaching-institution-name">Peking University</h4>
         <div class="teaching-course-list">
           <article class="teaching-course">
             <div class="teaching-course-header">
-              <h4 class="teaching-course-name">Spatial Analysis and GIS Applications</h4>
+              <h5 class="teaching-course-name">Spatial Analysis and GIS Applications</h5>
               <span class="teaching-term">Spring 2025</span>
             </div>
-            <p class="teaching-role">Teaching Assistant</p>
+            <p class="teaching-role">Teaching Assistant · with <a href="https://scholar.google.com/citations?user=dc1TzLoAAAAJ">Prof. Fan Zhang</a></p>
           </article>
         </div>
       </div>
     </div>
   </section>
 
+  </section>
+
   <section class="teaching-supervision-section" aria-labelledby="teaching-supervision-title">
-    <h2 class="teaching-supervision-heading" id="teaching-supervision-title">Student Supervision</h2>
+    <h2 class="teaching-section-heading" id="teaching-supervision-title">Student Supervision</h2>
     <article class="teaching-supervision-entry">
       <div class="teaching-logo">
         <img src="{{ '/assets/img/univie_logo.png' | relative_url }}" alt="" loading="lazy">
