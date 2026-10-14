@@ -78,6 +78,7 @@
   type: time_table
   contents:
     - title: 'No "true" greenery: Deciphering the bias of satellite and street view imagery in urban greenery measurement'
+      presentation_type: Poster
       institution: EGU General Assembly 2026
       location: Vienna, Austria
       year: 2026
