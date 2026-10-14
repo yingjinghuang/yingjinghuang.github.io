@@ -36,7 +36,6 @@ _styles: |
     background: var(--global-card-bg-color);
   }
   .experience-logo img { display: block; width: 100%; height: 100%; object-fit: contain; }
-  .experience-logo i { font-size: 1.35rem; color: var(--global-theme-color); }
   .experience-content { min-width: 0; overflow-wrap: break-word; }
   .experience-header,
   .experience-degree-header {
@@ -65,17 +64,14 @@ _styles: |
     line-height: 1.5;
   }
   .experience-location,
-  .experience-detail,
-  .experience-funder {
+  .experience-detail {
     margin: .18rem 0 0;
     font-size: .88rem;
     line-height: 1.55;
     color: var(--global-text-color-light);
   }
-  .experience-detail a,
-  .experience-funder a { color: var(--global-theme-color); }
-  .experience-detail a:hover,
-  .experience-funder a:hover { text-decoration: underline; }
+  .experience-detail a { color: var(--global-theme-color); }
+  .experience-detail a:hover { text-decoration: underline; }
   .experience-degrees { margin-top: .85rem; }
   .experience-degree + .experience-degree {
     margin-top: .95rem;
@@ -88,12 +84,6 @@ _styles: |
     font-weight: 550;
     line-height: 1.5;
   }
-  .experience-grant-meta {
-    margin: .4rem 0 0;
-    font-size: .91rem;
-    line-height: 1.5;
-  }
-  .experience-grant-meta strong { font-weight: 650; }
   @media (max-width: 600px) {
     .experience-section + .experience-section { margin-top: 2rem; }
     .experience-section-title { font-size: 1.34rem; }
@@ -103,7 +93,6 @@ _styles: |
       padding: 1.1rem 0;
     }
     .experience-logo { width: 44px; height: 44px; padding: 6px; border-radius: 10px; }
-    .experience-logo i { font-size: 1.15rem; }
     .experience-header,
     .experience-degree-header { flex-direction: column; align-items: flex-start; gap: .1rem; }
     .experience-date { white-space: normal; font-size: .81rem; }
@@ -193,23 +182,6 @@ _styles: |
     </div>
   </section>
 
-  <section class="experience-section" aria-labelledby="experience-funding-title">
-    <h2 class="experience-section-title" id="experience-funding-title">Research Funding</h2>
-    <div class="experience-list">
 
-      <article class="experience-entry">
-        <div class="experience-logo"><i class="fa-solid fa-landmark" aria-hidden="true"></i></div>
-        <div class="experience-content">
-          <div class="experience-header">
-            <h3>GeoAI for Vienna Liveliness 2026</h3>
-            <span class="experience-date">2026</span>
-          </div>
-          <p class="experience-funder"><a href="https://www.wien.gv.at/amtswege/hochschuljubilaeumsfonds">Hochschuljubiläumsfonds der Stadt Wien</a></p>
-          <p class="experience-grant-meta">Principal Investigator (PI) · <strong>€7,500 awarded</strong></p>
-        </div>
-      </article>
-
-    </div>
-  </section>
 
 </div>
