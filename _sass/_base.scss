@@ -250,8 +250,8 @@ ul.task-list input[type="checkbox"] {
   opacity: 0.95;
 }
 
-// Keep the longer academic navigation usable on tablets and short screens.
-@media (max-width: 1199.98px) {
+// Make the collapsed navigation scrollable on narrow/short screens.
+@media (max-width: 991.98px) {
   #navbarNav.show {
     max-height: calc(100vh - 4.5rem);
     overflow-y: auto;
