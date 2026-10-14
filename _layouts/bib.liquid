@@ -42,7 +42,9 @@
           %}
         {% endif %}
       {% else %}
-        <img class="preview z-depth-1 rounded" src="{{ '/assets/img/publication_preview/default_preview.svg' | relative_url }}" alt="No preview available">
+        {% unless page.hide_missing_publication_previews %}
+          <img class="preview z-depth-1 rounded" src="{{ '/assets/img/publication_preview/default_preview.svg' | relative_url }}" alt="No preview available">
+        {% endunless %}
       {% endif %}
     </div>
   {% endif %}
