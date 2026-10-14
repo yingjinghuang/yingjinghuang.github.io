@@ -98,3 +98,25 @@ nav_order: 3
   </div>
 
 </div>
+
+## Research Funding
+
+<div class="container">
+
+  <div class="card mt-3">
+    <div class="row no-gutters">
+      <div class="col-auto p-3 d-flex align-items-center justify-content-center" style="min-width: 120px;">
+        <i class="fa-solid fa-award" style="font-size: 2.5rem; color: var(--global-theme-color);" aria-hidden="true"></i>
+      </div>
+      <div class="col">
+        <div class="card-body">
+          <h5 class="card-title font-weight-bold mb-1">GeoAI for Vienna Liveliness 2026</h5>
+          <h6 class="card-subtitle text-muted mb-2">Principal Investigator (PI)</h6>
+          <p class="card-text mb-1"><i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i> <a href="https://www.wien.gv.at/amtswege/hochschuljubilaeumsfonds">Hochschuljubiläumsfonds der Stadt Wien</a> &nbsp; | &nbsp; <i class="fa-solid fa-calendar" style="color: var(--global-theme-color);"></i> 2026</p>
+          <p class="card-text mb-0"><small><strong>Funding awarded:</strong> €7,500</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
