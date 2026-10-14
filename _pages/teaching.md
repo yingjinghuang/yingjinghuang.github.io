@@ -75,6 +75,9 @@ _styles: |
     line-height: 1.55;
     color: var(--global-text-color-light);
   }
+  .teaching-role strong { font-weight: 600; color: var(--global-text-color); }
+  .teaching-role a { color: var(--global-theme-color); }
+  .teaching-role a:hover { text-decoration: underline; }
   .teaching-links {
     display: flex;
     flex-wrap: wrap;
@@ -122,6 +125,10 @@ _styles: |
               <span class="teaching-term">Winter 2026</span>
             </div>
             <p class="teaching-role">Lecturer</p>
+            <nav class="teaching-links" aria-label="Geo-Data and Geo-Data Management course links">
+              <a href="https://yingjinghuang.github.io/Geo-Data-and-Geo-Data-Management/">Course Page ↗</a>
+              <a href="https://ufind.univie.ac.at/en/course.html?lv=290700&amp;semester=2026W">University Catalog ↗</a>
+            </nav>
           </article>
 
           <article class="teaching-course">
@@ -129,7 +136,12 @@ _styles: |
               <h4 class="teaching-course-name">Geographic Information Retrieval</h4>
               <span class="teaching-term">Winter 2026</span>
             </div>
-            <p class="teaching-role">Lecturer</p>
+            <p class="teaching-role"><strong>Lead lecturer</strong> · with <a href="https://ufind.univie.ac.at/en/person.html?id=1004103">Zilong Liu</a> · Two groups</p>
+            <nav class="teaching-links" aria-label="Geographic Information Retrieval course links">
+              <a href="https://yingjinghuang.github.io/Geographic-Information-Retrieval/">Course Page ↗</a>
+              <a href="https://ufind.univie.ac.at/en/course.html?lv=290753&amp;semester=2026W">u:find · Tuesday group ↗</a>
+              <a href="https://ufind.univie.ac.at/en/course.html?lv=290705&amp;semester=2026W">u:find · Friday group ↗</a>
+            </nav>
           </article>
 
           <article class="teaching-course">
