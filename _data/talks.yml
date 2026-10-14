@@ -5,6 +5,7 @@
       institution: Technical University of Munich (TUM)
       location: Munich, Germany
       year: 2026
+      sort_month: "2026-09"
       description:
         - Sep. 2026
 
@@ -12,6 +13,7 @@
       institution: Heidelberg University
       location: Heidelberg, Germany
       year: 2026
+      sort_month: "2026-09"
       description:
         - Sep. 2026
 
@@ -19,6 +21,7 @@
       institution: Nanjing Normal University
       location: Online
       year: 2025
+      sort_month: "2025-08"
       description:
         - Aug. 2025
       linkitems:
@@ -29,6 +32,7 @@
       institution: GISChat (a non-profit GIS knowledge-sharing platform organized by Chinese scholars)
       location: Online
       year: 2025
+      sort_month: "2025-08"
       description:
         - Aug. 2025
       linkitems:
@@ -42,6 +46,7 @@
       institution: 17th International Conference on Spatial Information Theory (COSIT 2026)
       location: York, UK
       year: 2026
+      sort_month: "2026-09"
       description:
         - Sep. 2026
 
@@ -49,6 +54,7 @@
       institution: The 26th Inter-University Symposium on Asian Megacities
       location: Nanchang, China
       year: 2025
+      sort_month: "2025-09"
       description:
         - Sep. 2025
 
@@ -56,6 +62,7 @@
       institution: American Association of Geographers 2024 Annual Meeting
       location: Honolulu, US
       year: 2024
+      sort_month: "2024-04"
       description:
         - Apr. 2024
 
@@ -63,16 +70,18 @@
       institution: 2021 International Graduate Workshop on GeoInformatics
       location: Beijing, China (online)
       year: 2021
+      sort_month: "2021-12"
       description:
         - Dec. 2021
 
 - title: Conference Posters
   type: time_table
   contents:
-    - title: "No ''true'' greenery: Deciphering the bias of satellite and street view imagery in urban greenery measurement"
+    - title: 'No "true" greenery: Deciphering the bias of satellite and street view imagery in urban greenery measurement'
       institution: EGU General Assembly 2026
       location: Vienna, Austria
       year: 2026
+      sort_month: "2026-05"
       description:
         - May 2026
       linkitems:
