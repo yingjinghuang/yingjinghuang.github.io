@@ -27,64 +27,8 @@ _styles: |
     white-space: nowrap;
     color: var(--global-text-color-light);
   }
-  .talks-feature-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-  }
-  .talks-feature {
-    min-width: 0;
-    display: flex;
-    flex-direction: column;
-    padding: 1.2rem 1.25rem 1.25rem;
-    background: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
-    border-top: 3px solid var(--global-theme-color);
-    border-radius: 10px;
-  }
-  .talks-feature-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: .6rem;
-    margin-bottom: .85rem;
-  }
-  .talks-eyebrow {
-    color: var(--global-theme-color);
-    font-size: .72rem;
-    font-weight: 700;
-    letter-spacing: .08em;
-    text-transform: uppercase;
-  }
-  .talks-feature-date,
-  .talks-entry-date {
-    color: var(--global-text-color-light);
-    font-size: .82rem;
-    white-space: nowrap;
-  }
-  .talks-feature h3 {
-    font-size: 1.08rem;
-    line-height: 1.5;
-    font-weight: 650;
-    letter-spacing: -.01em;
-    margin: 0 0 1.1rem;
-  }
-  .talks-feature-bottom { margin-top: auto; }
-  .talks-feature-host {
-    font-size: .91rem;
-    font-weight: 550;
-    line-height: 1.55;
-    margin: 0;
-  }
-  .talks-feature-location {
-    color: var(--global-text-color-light);
-    font-size: .84rem;
-    line-height: 1.55;
-    margin: .15rem 0 0;
-  }
-  .talks-feature-location i { margin-right: .25rem; }
-  .talks-recordings { margin-top: .45rem; }
-  .talks-recording {
+  .talks-invited-list { margin-top: .45rem; }
+  .talks-invited-entry {
     display: grid;
     grid-template-columns: 42px minmax(0, 1fr);
     align-items: start;
@@ -92,8 +36,8 @@ _styles: |
     padding: 1.25rem 0;
     border-bottom: 1px solid var(--global-divider-color);
   }
-  .talks-recording:last-child { border-bottom: 0; }
-  .talks-recording-symbol {
+  .talks-invited-entry:last-child { border-bottom: 0; }
+  .talks-invited-symbol {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,11 +136,8 @@ _styles: |
   @media (max-width: 640px) {
     .talks-section + .talks-section { margin-top: 2.25rem; }
     .talks-section-head h2 { font-size: 1.34rem; }
-    .talks-feature-grid { grid-template-columns: minmax(0, 1fr); gap: .8rem; }
-    .talks-feature { padding: 1rem 1.1rem 1.1rem; }
-    .talks-feature h3 { margin-bottom: .8rem; }
     .talks-entry-head { align-items: flex-start; flex-direction: column; gap: .2rem; }
-    .talks-recording { gap: .7rem; padding: 1rem 0; }
+    .talks-invited-entry { gap: .7rem; padding: 1rem 0; }
     .talks-conference { grid-template-columns: 52px minmax(0, 1fr); gap: .75rem; padding: 1.1rem 0; }
     .talks-conf-year { font-size: .9rem; }
   }
@@ -206,8 +147,6 @@ _styles: |
 {% assign conference_group = site.data.talks | where: "title", "Conference Talks" | first %}
 {% assign poster_group = site.data.talks | where: "title", "Conference Posters" | first %}
 {% assign invited_items = invited_group.contents | sort: "sort_month" | reverse %}
-{% assign featured_invited = invited_items | slice: 0, 2 %}
-{% assign recorded_invited = invited_items | slice: 2, 100 %}
 {% assign conference_items = conference_group.contents | concat: poster_group.contents | sort: "sort_month" | reverse %}
 
 <div class="talks-page">
@@ -218,26 +157,12 @@ _styles: |
       <span class="talks-section-count">{{ invited_items.size }} talks</span>
     </div>
 
-    <div class="talks-feature-grid">
-      {% for talk in featured_invited %}
-        <article class="talks-feature">
-          <div class="talks-feature-top">
-            <span class="talks-eyebrow"><i class="fa-solid fa-microphone" aria-hidden="true"></i> Invited talk</span>
-            <time class="talks-feature-date">{{ talk.description | first }}</time>
+    <div class="talks-invited-list">
+      {% for talk in invited_items %}
+        <article class="talks-invited-entry">
+          <div class="talks-invited-symbol" aria-hidden="true">
+            {% if talk.linkitems %}<i class="fa-solid fa-video"></i>{% else %}<i class="fa-solid fa-microphone"></i>{% endif %}
           </div>
-          <h3>{{ talk.title | escape }}</h3>
-          <div class="talks-feature-bottom">
-            <p class="talks-feature-host">{{ talk.institution | escape }}</p>
-            <p class="talks-feature-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> {{ talk.location | escape }}</p>
-          </div>
-        </article>
-      {% endfor %}
-    </div>
-
-    <div class="talks-recordings">
-      {% for talk in recorded_invited %}
-        <article class="talks-recording">
-          <div class="talks-recording-symbol" aria-hidden="true"><i class="fa-solid fa-video"></i></div>
           <div>
             <div class="talks-entry-head">
               <h3>{{ talk.title | escape }}</h3>
