@@ -1,6 +1,6 @@
 <header>
   <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-xl {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+  <nav id="navbar" class="navbar navbar-light navbar-expand-lg {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
@@ -58,8 +58,10 @@
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
+          {% assign more_nav_permalinks = '/talks/,/services/,/cv/,/news/' | split: ',' %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}
+              {% unless more_nav_permalinks contains p.permalink %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
                 {% for child in p.children %}
@@ -115,8 +117,46 @@
                   </a>
                 </li>
               {% endif %}
+              {% endunless %}
             {% endif %}
           {% endfor %}
+
+          <!-- Secondary pages grouped to keep core academic navigation visible. -->
+          {% assign more_nav_active = false %}
+          {% for p in sorted_pages %}
+            {% if p.nav and p.autogen == null %}
+              {% if more_nav_permalinks contains p.permalink and page.url == p.url %}
+                {% assign more_nav_active = true %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          <li class="nav-item dropdown {% if more_nav_active %}active{% endif %}">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarMoreDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              more
+              {% if more_nav_active %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarMoreDropdown">
+              {% for p in sorted_pages %}
+                {% if p.nav and p.autogen == null %}
+                  {% if more_nav_permalinks contains p.permalink %}
+                    <a class="dropdown-item {% if page.url == p.url %}active{% endif %}" href="{{ p.url | relative_url }}"{% if page.url == p.url %} aria-current="page"{% endif %}>
+                      {{- p.title -}}
+                    </a>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            </div>
+          </li>
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
