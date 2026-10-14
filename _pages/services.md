@@ -2,43 +2,152 @@
 layout: page
 permalink: /services/
 title: services
-description: Academic services including journal reviews, conference organization, and committee memberships.
+description: Editorial work, workshop organization, and journal reviewing.
 nav: true
 nav_order: 6
+_styles: |
+  .services-page { max-width: 860px; }
+  .service-section + .service-section { margin-top: 2.5rem; }
+  .service-heading {
+    margin: 0 0 .65rem;
+    font-size: 1.45rem;
+    font-weight: 650;
+    line-height: 1.35;
+    letter-spacing: -.02em;
+  }
+  .service-entry {
+    padding: 1.18rem 0 1.3rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+  .service-entry:last-child { border-bottom: 0; }
+  .service-entry-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: .3rem 1.1rem;
+  }
+  .service-entry-role {
+    margin: 0;
+    font-size: 1.08rem;
+    font-weight: 650;
+    line-height: 1.45;
+  }
+  .service-date {
+    flex-shrink: 0;
+    color: var(--global-text-color-light);
+    font-size: .84rem;
+    white-space: nowrap;
+  }
+  .service-entry-title {
+    margin: .38rem 0 0;
+    font-size: .98rem;
+    line-height: 1.55;
+    font-weight: 550;
+  }
+  .service-entry-meta {
+    margin: .2rem 0 0;
+    color: var(--global-text-color-light);
+    font-size: .89rem;
+    line-height: 1.55;
+  }
+  .service-entry-links {
+    margin: .45rem 0 0;
+    font-size: .88rem;
+    line-height: 1.5;
+  }
+  .service-entry-links a { color: var(--global-theme-color); }
+  .service-entry-links a:hover { text-decoration: underline; }
+  .service-review-count {
+    font-size: .85rem;
+    font-weight: 400;
+    color: var(--global-text-color-light);
+    margin-left: .45rem;
+  }
+  .service-review-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2.25rem;
+    row-gap: .85rem;
+    list-style: none;
+    margin: 1.2rem 0 0;
+    padding: 0;
+  }
+  .service-review-list li {
+    min-width: 0;
+    font-size: .91rem;
+    line-height: 1.55;
+    overflow-wrap: break-word;
+  }
+  .service-review-list a { color: var(--global-text-color); }
+  .service-review-list a:hover {
+    color: var(--global-theme-color);
+    text-decoration: underline;
+  }
+  @media (max-width: 680px) {
+    .service-section + .service-section { margin-top: 2rem; }
+    .service-heading { font-size: 1.34rem; }
+    .service-entry { padding: 1.05rem 0; }
+    .service-entry-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: .18rem;
+    }
+    .service-date { font-size: .81rem; white-space: normal; }
+    .service-review-list {
+      grid-template-columns: minmax(0, 1fr);
+      margin-top: .95rem;
+      row-gap: .7rem;
+    }
+  }
 ---
 
-## Conference Organization
+{% assign editorial_group = site.data.services | where: "title", "Editorial Roles" | first %}
+{% assign workshop_group = site.data.services | where: "title", "Conference & Workshop Organization" | first %}
+{% assign reviewing_group = site.data.services | where: "title", "Journal Reviewing" | first %}
 
-- **Co-organizer**, [1st International Workshop on Geography According to Foundation Models](https://stko-lab.github.io/agile2026-geofm/), AGILE 2026, Tartu, Estonia, June 16, 2026
+<div class="services-page">
 
-## Guest Editor
+  <section class="service-section" aria-labelledby="service-editorial-heading">
+    <h2 class="service-heading" id="service-editorial-heading">Editorial Roles</h2>
+    {% for entry in editorial_group.entries %}
+      <article class="service-entry">
+        <div class="service-entry-header">
+          <h3 class="service-entry-role">{{ entry.role | escape }}</h3>
+          <span class="service-date">{{ entry.year | default: entry.date | escape }}</span>
+        </div>
+        <p class="service-entry-title">{{ entry.title | escape }}</p>
+        <p class="service-entry-meta">{{ entry.venue | escape }}</p>
+        {% if entry.url %}
+          <p class="service-entry-links"><a href="{{ entry.url | escape }}">Special Issue ↗</a></p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </section>
 
-- Transactions in Urban Data Science and Technology
+  <section class="service-section" aria-labelledby="service-workshop-heading">
+    <h2 class="service-heading" id="service-workshop-heading">Conference &amp; Workshop Organization</h2>
+    {% for entry in workshop_group.entries %}
+      <article class="service-entry">
+        <div class="service-entry-header">
+          <h3 class="service-entry-role">{{ entry.role | escape }}</h3>
+          <span class="service-date">{{ entry.date | escape }}</span>
+        </div>
+        <p class="service-entry-title">{{ entry.title | escape }}</p>
+        <p class="service-entry-meta">{{ entry.venue | escape }}{% if entry.location %} · {{ entry.location | escape }}{% endif %}</p>
+        {% if entry.url %}
+          <p class="service-entry-links"><a href="{{ entry.url | escape }}">Workshop Website ↗</a></p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </section>
 
-## Journal Reviewer
+  <section class="service-section" aria-labelledby="service-reviewing-heading">
+    <h2 class="service-heading" id="service-reviewing-heading">Journal Reviewing <span class="service-review-count">{{ reviewing_group.journals.size }} journals</span></h2>
+    <ul class="service-review-list">
+      {% for journal in reviewing_group.journals %}
+        <li>{% if journal.url %}<a href="{{ journal.url | escape }}">{{ journal.name | escape }}</a>{% else %}{{ journal.name | escape }}{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </section>
 
-- [ISPRS Journal of Photogrammetry and Remote Sensing](https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing)
-- [International Journal of Geographical Information Science](https://www.tandfonline.com/journals/tgis20)
-- [Landscape and Urban Planning](https://www.sciencedirect.com/journal/landscape-and-urban-planning)
-- [Building and Environment](https://www.sciencedirect.com/journal/building-and-environment)
-- [Cities](https://www.sciencedirect.com/journal/cities)
-- [Computers, Environment and Urban Systems](https://www.sciencedirect.com/journal/computers-environment-and-urban-systems)
-- [Sustainable Cities and Society](https://www.sciencedirect.com/journal/sustainable-cities-and-society)
-- [Environment and Planning B: Urban Analytics and City Science](https://journals.sagepub.com/home/epb)
-- [IEEE Transactions on Human-Machine Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=3468)
-- [Urban Forestry & Urban Greening](https://www.sciencedirect.com/journal/urban-forestry-and-urban-greening)
-- [Travel Behaviour and Society](https://www.sciencedirect.com/journal/travel-behaviour-and-society)
-- [Applied Geography](https://www.sciencedirect.com/journal/applied-geography)
-- [Geography and Sustainability](https://www.sciencedirect.com/journal/geography-and-sustainability)
-- [Scientific Reports](https://www.nature.com/srep/)
-- [PLOS ONE](https://journals.plos.org/plosone/)
-- [Journal of Urban Technology](https://www.tandfonline.com/journals/cjut20)
-- [Computational Urban Science](https://link.springer.com/journal/43762)
-- [International Journal of Applied Earth Observation and Geoinformation](https://www.sciencedirect.com/journal/international-journal-of-applied-earth-observation-and-geoinformation)
-- [International Journal of Digital Earth](https://www.tandfonline.com/journals/tjde20)
-- [Environment International](https://www.sciencedirect.com/journal/environment-international)
-- [City and Environment Interactions](https://www.sciencedirect.com/journal/city-and-environment-interactions)
-- [International Journal of Disaster Risk Reduction](https://www.sciencedirect.com/journal/international-journal-of-disaster-risk-reduction)
-- [Journal of Asian Architecture and Building Engineering](https://www.tandfonline.com/journals/tabe20)
-- Geomatics and Information Science of Wuhan University (in Chinese)
-- [Journal of Transportation Engineering and Information](http://jtysgx.ndhx.net/) (in Chinese)
+</div>
