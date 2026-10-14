@@ -98,17 +98,7 @@ _styles: |
       </div>
     </article>
 
-    <article class="awards-entry">
-      <span class="awards-year">2026</span>
-      <div class="awards-body">
-        <h3 class="awards-title">Best Paper Award · FM4Urban 2026</h3>
-        <p class="awards-meta">1st Workshop on Foundation Models for Urban Analytics and Intelligence</p>
-        <p class="awards-detail">Co-author of the awarded paper, “Whose City Is It? Perspective-Dependent Urban Representations in Foundation Models.”</p>
-        <a class="awards-link" href="https://fm4urban.github.io/">Workshop website ↗</a>
-      </div>
-    </article>
-
-    <article class="awards-entry">
+<article class="awards-entry">
       <span class="awards-year">2025</span>
       <div class="awards-body">
         <h3 class="awards-title">Postdoc-NeT-AI Fellowship on Explainable AI</h3>
