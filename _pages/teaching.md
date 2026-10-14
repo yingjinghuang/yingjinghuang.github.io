@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Courses I have taught or assisted with.
+description: Courses and student supervision.
 nav: true
 nav_order: 4
 _styles: |
@@ -98,6 +98,56 @@ _styles: |
   }
   .teaching-links a { color: var(--global-theme-color); }
   .teaching-links a:hover { text-decoration: underline; }
+  .teaching-supervision-section { margin-top: 2.65rem; }
+  .teaching-supervision-heading {
+    margin: 0 0 .65rem;
+    font-size: 1.45rem;
+    font-weight: 650;
+    line-height: 1.35;
+    letter-spacing: -.02em;
+  }
+  .teaching-supervision-entry {
+    display: grid;
+    grid-template-columns: 54px minmax(0, 1fr);
+    gap: 1.1rem;
+    align-items: start;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+  .teaching-supervision-content { min-width: 0; }
+  .teaching-supervision-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: .3rem 1.1rem;
+  }
+  .teaching-supervision-name {
+    margin: 0;
+    font-size: 1.11rem;
+    font-weight: 650;
+    line-height: 1.4;
+    letter-spacing: -.012em;
+  }
+  .teaching-supervision-date {
+    flex-shrink: 0;
+    font-size: .84rem;
+    color: var(--global-text-color-light);
+    white-space: nowrap;
+  }
+  .teaching-supervision-degree {
+    margin: .4rem 0 .16rem;
+    font-size: .97rem;
+    line-height: 1.55;
+    font-weight: 550;
+  }
+  .teaching-supervision-role {
+    margin: .18rem 0 0;
+    font-size: .88rem;
+    line-height: 1.55;
+    color: var(--global-text-color-light);
+  }
+  .teaching-supervision-role a { color: var(--global-theme-color); }
+  .teaching-supervision-role a:hover { text-decoration: underline; }
   @media (max-width: 600px) {
     .teaching-year-group + .teaching-year-group { margin-top: 2rem; }
     .teaching-year-title { font-size: 1.34rem; }
@@ -114,6 +164,15 @@ _styles: |
       gap: .1rem;
     }
     .teaching-term { font-size: .81rem; white-space: normal; }
+    .teaching-supervision-section { margin-top: 2.05rem; }
+    .teaching-supervision-heading { font-size: 1.34rem; }
+    .teaching-supervision-entry {
+      grid-template-columns: 44px minmax(0, 1fr);
+      gap: .8rem;
+      padding: 1.1rem 0;
+    }
+    .teaching-supervision-header { align-items: flex-start; flex-direction: column; gap: .1rem; }
+    .teaching-supervision-date { font-size: .81rem; white-space: normal; }
   }
 ---
 
@@ -191,5 +250,23 @@ _styles: |
       </div>
     </div>
   </section>
+
+  <section class="teaching-supervision-section" aria-labelledby="teaching-supervision-title">
+    <h2 class="teaching-supervision-heading" id="teaching-supervision-title">Student Supervision</h2>
+    <article class="teaching-supervision-entry">
+      <div class="teaching-logo">
+        <img src="{{ '/assets/img/univie_logo.png' | relative_url }}" alt="" loading="lazy">
+      </div>
+      <div class="teaching-supervision-content">
+        <div class="teaching-supervision-header">
+          <h3 class="teaching-supervision-name">Seyedeh Negin Kosari</h3>
+          <span class="teaching-supervision-date">2026–present</span>
+        </div>
+        <p class="teaching-supervision-degree">Master's thesis · University of Vienna</p>
+        <p class="teaching-supervision-role">Co-supervisor · with <a href="https://ufind.univie.ac.at/de/person.html?id=1001662">Prof. Krzysztof Janowicz</a></p>
+      </div>
+    </article>
+  </section>
+
 
 </div>
