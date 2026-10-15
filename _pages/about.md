@@ -142,6 +142,36 @@ _styles: |
       font-size: .78rem;
       border-radius: 5px;
     }
+    .about-home .social { margin-top: 1.5rem; }
+    .about-home .social .contact-icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: .2rem .3rem;
+      font-size: 1.75rem;
+      line-height: 1;
+    }
+    .about-home .social .contact-icons a {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 44px;
+      height: 44px;
+      flex: 0 0 44px;
+      margin: 0;
+    }
+    .about-home .social .contact-icons a img,
+    .about-home .social .contact-icons a svg {
+      width: 1.8rem;
+      height: 1.8rem;
+      margin: 0;
+    }
+    .about-home .social .contact-icons a svg image {
+      width: 100%;
+      height: 100%;
+    }
+    .about-home .social .contact-note { margin-top: .5rem; }
   }
 ---
 
