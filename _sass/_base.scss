@@ -250,6 +250,18 @@ ul.task-list input[type="checkbox"] {
   opacity: 0.95;
 }
 
+// Mobile reading: avoid a footer that covers content and a translucent fixed navbar.
+@media (max-width: 575.98px) {
+  .navbar { opacity: 1; }
+
+  footer.fixed-bottom {
+    position: static !important;
+    margin-top: 2rem;
+  }
+
+  body:not(.sticky-bottom-footer) { padding-bottom: 0; }
+}
+
 // Make the collapsed navigation scrollable on narrow/short screens.
 @media (max-width: 991.98px) {
   #navbarNav.show {
