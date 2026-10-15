@@ -24,6 +24,25 @@ _styles: |
   .about-home .home-news-more { display: none; }
 
   @media (max-width: 575.98px) {
+    .about-home .profile {
+      width: 148px;
+      max-width: 100%;
+      margin: 0 auto 1.25rem !important;
+      text-align: center;
+    }
+    .about-home .profile.float-right,
+    .about-home .profile.float-left { float: none !important; }
+    .about-home .profile figure { margin: 0; }
+    .about-home .profile img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .about-home .profile .more-info {
+      margin: .5rem 0 0;
+      font-size: .82rem;
+      line-height: 1.45;
+    }
     .about-home h2 {
       margin: 1.7rem 0 .65rem;
       font-size: 1.55rem;
