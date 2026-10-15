@@ -130,7 +130,7 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          <li class="nav-item dropdown {% if more_nav_active %}active{% endif %}">
+          <li class="nav-item dropdown d-none d-lg-block {% if more_nav_active %}active{% endif %}">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -157,6 +157,20 @@
               {% endfor %}
             </div>
           </li>
+
+          <!-- On collapsed navigation, show all secondary pages directly. -->
+          {% for p in sorted_pages %}
+            {% if p.nav and p.autogen == null %}
+              {% if more_nav_permalinks contains p.permalink %}
+                <li class="nav-item d-lg-none {% if page.url == p.url %}active{% endif %}">
+                  <a class="nav-link" href="{{ p.url | relative_url }}"{% if page.url == p.url %} aria-current="page"{% endif %}>
+                    {{- p.title -}}
+                    {% if page.url == p.url %}<span class="sr-only">(current)</span>{% endif %}
+                  </a>
+                </li>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
