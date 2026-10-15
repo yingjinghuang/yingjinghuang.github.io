@@ -12,12 +12,118 @@ profile:
     <p>Postdoc @ University of Vienna</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+hide_missing_publication_previews: true # show real publication figures but no generic placeholders
 social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
+_styles: |
+  .about-home .home-news-short,
+  .about-home .home-news-more { display: none; }
+
+  @media (max-width: 575.98px) {
+    .about-home h2 {
+      margin: 1.7rem 0 .65rem;
+      font-size: 1.55rem;
+      line-height: 1.3;
+      letter-spacing: -.02em;
+    }
+    .about-home .news .table-responsive {
+      max-height: none !important;
+      overflow: visible;
+    }
+    .about-home .news table.table,
+    .about-home .news table tbody,
+    .about-home .news table tr,
+    .about-home .news table th,
+    .about-home .news table td {
+      display: block;
+      width: 100% !important;
+      max-width: 100%;
+    }
+    .about-home .news table.table { margin: 0; }
+    .about-home .news table tr {
+      padding: .72rem 0 .86rem;
+      border-bottom: 1px solid var(--global-divider-color);
+    }
+    .about-home .news table tr:nth-child(n+4) { display: none; }
+    .about-home .news table th {
+      padding: 0 0 .2rem;
+      font-size: .8rem;
+      font-weight: 500;
+      line-height: 1.5;
+      white-space: normal;
+      color: var(--global-text-color-light);
+    }
+    .about-home .news table td {
+      padding: 0;
+      font-size: .93rem;
+      line-height: 1.6;
+      overflow-wrap: anywhere;
+    }
+    .about-home .home-news-full { display: none; }
+    .about-home .home-news-short { display: inline; }
+    .about-home .home-news-more {
+      display: block;
+      margin: .6rem 0 1.35rem;
+      text-align: right;
+      font-size: .88rem;
+    }
+    .about-home .home-news-more a { color: var(--global-theme-color); }
+    .about-home .publications { margin-top: .6rem; }
+    .about-home .publications ol.bibliography li {
+      margin: 0;
+      padding: .85rem 0 1rem;
+      border-bottom: 1px solid var(--global-divider-color);
+    }
+    .about-home .publications ol.bibliography li .row > .abbr,
+    .about-home .publications ol.bibliography li .row > .col-sm-8,
+    .about-home .publications ol.bibliography li .row > .col-sm-10 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .about-home .publications ol.bibliography li .abbr {
+      margin: 0 0 .35rem;
+    }
+    .about-home .publications ol.bibliography li .abbr abbr {
+      width: auto !important;
+      max-width: 100%;
+      padding: .25rem .55rem;
+      margin: 0;
+      font-size: .72rem;
+      white-space: normal;
+      box-shadow: none !important;
+    }
+    .about-home .publications ol.bibliography li img.preview {
+      display: block;
+      max-width: 155px;
+      max-height: 108px;
+      margin: .5rem 0 0;
+      object-fit: contain;
+      object-position: left center;
+      box-shadow: none !important;
+    }
+    .about-home .publications ol.bibliography li .title {
+      font-size: 1rem;
+      font-weight: 650;
+      line-height: 1.45;
+    }
+    .about-home .publications ol.bibliography li .author,
+    .about-home .publications ol.bibliography li .periodical {
+      font-size: .87rem;
+      line-height: 1.5;
+      overflow-wrap: anywhere;
+    }
+    .about-home .publications ol.bibliography li .links { margin-top: .45rem; }
+    .about-home .publications ol.bibliography li .links a.btn {
+      padding: .18rem .5rem;
+      margin: 0 .3rem .3rem 0;
+      font-size: .78rem;
+      border-radius: 5px;
+    }
+  }
 ---
 
 Hi, I am Yingjing Huang (黄颖菁). 👋 I am a University Assistant Postdoc at the [Department of Geography and Regional Research](https://geographie.univie.ac.at/en/), [University of Vienna](https://www.univie.ac.at/), where I work with [Prof. Krzysztof Janowicz](https://ufind.univie.ac.at/de/person.html?id=1001662).
